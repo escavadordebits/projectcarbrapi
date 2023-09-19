@@ -1,0 +1,1 @@
+delete from Carro where pk_Carro=10

@@ -1,0 +1,37 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "ecommerce",
+            "database": "ecommerce",
+            "username": "root",
+            "password": "password"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MariaDB",
+            "name": "ecommerce",
+            "database": "ecommerce",
+            "username": "root",
+            "password": "password"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "carros",
+            "group": "carros",
+            "database": "${workspaceFolder:api}/database/db.sqlite3"
+        }
+    ]
+}
